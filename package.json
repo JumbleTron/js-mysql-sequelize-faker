@@ -1,0 +1,22 @@
+{
+  "name": "faker-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node -r dotenv/config main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.2.0",
+    "dotenv": "^16.3.1"
+  },
+  "dependencies": {
+    "mysql2": "^3.6.3",
+    "sequelize": "^6.34.0"
+  }
+}
